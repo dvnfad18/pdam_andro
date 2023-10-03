@@ -1,8 +1,8 @@
 class AppAsset {
   const AppAsset._();
 
-  static const sushi1 = "assets/images/sushi1.png";
-  static const sushi2 = "assets/images/sushi2.png";
+  static const sushi1 = "assets/images/rumah.png";
+  static const sushi2 = "assets/images/28.png";
   static const sushi3 = "assets/images/sushi3.png";
   static const sushi4 = "assets/images/sushi4.png";
   static const sushi5 = "assets/images/sushi5.png";

@@ -24,7 +24,7 @@ class FoodListScreen extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           const Icon(Icons.location_on_outlined, color: LightThemeColor.accent),
-          Text("Location", style: Theme.of(context).textTheme.bodyLarge)
+            Text("Lokasi", style: Theme.of(context).textTheme.bodyLarge)
         ],
       ),
       actions: [

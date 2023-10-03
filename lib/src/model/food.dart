@@ -1,4 +1,4 @@
-enum FoodType { all, sushi, kebab, tempura, ramen, burger }
+enum FoodType { Semua, Rumah, Gedung, Kantor, Lapangan }
 
 class Food {
   String image;

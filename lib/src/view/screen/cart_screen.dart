@@ -16,7 +16,7 @@ class CartScreen extends StatelessWidget {
   PreferredSizeWidget _appBar(BuildContext context) {
     return AppBar(
       title: Text(
-        "Cart screen",
+        "Halaman Riwayat",
         style: Theme.of(context).textTheme.displayMedium,
       ),
     );
@@ -216,7 +216,7 @@ class CartScreen extends StatelessWidget {
           : const SizedBox(),
       appBar: _appBar(context),
       body: EmptyWidget(
-        title: "Empty cart",
+        title: "Tidak Ada Riwqyat",
         condition: controller.cartFood.isNotEmpty,
         child: SingleChildScrollView(
           child: SizedBox(
