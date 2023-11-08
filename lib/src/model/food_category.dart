@@ -1,8 +1,8 @@
-import 'package:flutter_japanese_restaurant_app/src/model/food.dart';
+import 'package:flutter_japanese_restaurant_app/src/model/model_aset.dart';
 
 class FoodCategory {
-  final FoodType type;
+  final FoodType kategori;
   bool isSelected;
 
-  FoodCategory(this.type, this.isSelected);
+  FoodCategory(this.kategori, this.isSelected);
 }
